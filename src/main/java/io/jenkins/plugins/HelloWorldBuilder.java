@@ -63,6 +63,7 @@ public class HelloWorldBuilder extends Builder implements SimpleBuildStep, Actio
 			listener.getLogger().println("Username is null ");
 		} else {
 			listener.getLogger().println("Welcome :" + username);
+			listener.getLogger().println("Welcome :" + username);
 		}
 
 	}
