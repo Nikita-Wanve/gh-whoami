@@ -2,10 +2,10 @@ version: 2.1
 
 workflows:
   test-deploy:
-    jobs:
+    job:
       -test
       
- jobs:
+ job:
   test:
     steps:
       -checkout
