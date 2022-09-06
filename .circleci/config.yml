@@ -1,0 +1,13 @@
+version: 2.1
+
+workflows:
+  test-deploy:
+    jobs:
+      -test
+      
+ jobs:
+  test:
+    steps:
+      -checkout
+      -run:node --version
+      
